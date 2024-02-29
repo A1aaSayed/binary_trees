@@ -18,3 +18,10 @@ size_t binary_tree_height(const binary_tree_t *tree)
 
 	return (max(leftHeight, rightHeight) + 1);
 }
+size_t max(size_t a, size_t b)
+{
+	if (a > b)
+		return (a);
+	else
+		return (b);
+}
