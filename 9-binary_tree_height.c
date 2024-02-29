@@ -18,6 +18,13 @@ size_t binary_tree_height(const binary_tree_t *tree)
 
 	return (max(leftHeight, rightHeight));
 }
+
+/**
+ * max - find the maximum from two numbers
+ * @a: first number
+ * @b: secibd number
+ * Return: the maximum number
+*/
 size_t max(size_t a, size_t b)
 {
 	if (a > b)
